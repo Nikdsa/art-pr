@@ -1,0 +1,207 @@
+body {
+    background-color: rgb(233, 233, 233);
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/image\ 4.jpg) center no-repeat;
+    background-size: cover;
+
+}
+.intro_title {
+    font-size: 128px;
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.intro_title_1 {
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*Header*/
+.header {
+    width: 1440px;
+    height: 95px;
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+/*strawberb header logo*/
+.header_logo {
+    font-size: 32px;
+    padding-top: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.nav {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 45px;
+}
+.menu {
+    vertical-align: top;
+    margin: 0 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.section {
+    padding-top: 30px;
+    padding-bottom: 110px;
+    background-color: #ffffff;
+}
+.section_header {
+    width: 100%;
+    max-width: 1050px;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cookies {
+    display:flex;
+    justify-content: space-between;
+    padding-inline: 26px;
+}
+.cookie {
+    width: 360px;
+    height: 360px;
+}
+.z1 {
+    background: url("../legalizenuclearbombs/img/Rectangle\ 13.jpg") no-repeat;
+    background-size: cover;
+}
+.z2 {
+    background: url("../legalizenuclearbombs/img/Rectangle\ 14.jpg") no-repeat;
+    background-size: cover;
+}
+.z3 {
+    background: url("../legalizenuclearbombs/img/Rectangle\ 12.jpg") no-repeat;
+    background-size: cover;
+}
+.description {
+    width: 100%;
+    max-width: 1070px;
+    margin: 0 auto 12px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 95px;
+
+}
+.sub_description {
+    font-size: 40px;
+    font-weight: 500;
+}
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+    background: url("../legalizenuclearbombs/img/Mask\ group.jpg") no-repeat;
+    background-size: cover;
+}
+.container_01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 875px;
+    height: 570px;
+    background: url("../legalizenuclearbombs/img/Group\ 3.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.aboutus_title {
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.section_2 {
+    background-color: #ffffff;
+}
+.description_2 {
+    width: 100%;
+    max-width: 530px;
+    margin: 0 auto;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.sub_description_2 {
+    font-size: 48px;
+    font-weight: 500;
+}
+.button {
+    margin: 0 auto;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 300px;
+}
+.section_3 {
+    padding-top: 80px;
+    background-color: #000000;
+    width: 100%;
+    height: 500px;
+}
+.footer_title {
+    margin: 80px;
+    color: white;
+    display: inline;
+    font-weight: 400;
+}
+.footer_title1 {
+margin: 80px;
+    color: white;
+    font-weight: 400;
+    display: inline;
+    justify-content: flex-end;
+}
+.footerblocks {
+    display:flex;
+}
+.footer_description {
+    color: white;
+    margin: 80px;
+}
+.footer_description2 {
+    color: white;
+}
+.ava {
+position: relative;
+top: 148px;
+right: 151px;
+width: 178px;
+height: 178px;
+background: url(../legalizenuclearbombs/img/lewis-fagg-CE1yaljvkb0-unsplash.jpg);
+border-radius: 178px;
+}
