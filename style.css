@@ -280,7 +280,7 @@ p {
 }
 
 .button:hover {
-    background-color: #ff0000;
+    border-color: #ff0000;
     background: #ff0000;
     color: #ffffff;
 }
@@ -339,6 +339,12 @@ p {
     line-height: 2;
 }
 
+.footer_description:hover {
+    cursor: pointer;
+    color: #ff0000;
+    text-decoration: underline;
+}
+
 .footer_description1 {
     color: white;
     position: absolute;
@@ -353,6 +359,11 @@ p {
     left: 299px;
     margin-top: 171px;
     line-height: 1.5;
+}
+.footer_description2:hover {
+    cursor: pointer;
+    color: #ff0000;
+    text-decoration: underline;
 }
 
 .footer_description3 {
