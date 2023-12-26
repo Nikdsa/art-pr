@@ -181,6 +181,7 @@ p {
     cursor: pointer;
     transform: scale(1.05);
     background-color: red;
+    transition: 0.3s ease-out;
 }
 
 /*подпись под картинками*/
@@ -279,8 +280,9 @@ p {
 }
 
 .button:hover {
-    background: #000000;
-    color: #ff0000;
+    border-color:red;
+    background: red;
+    color: #fff;
 }
 
 /*футер*/
